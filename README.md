@@ -9,7 +9,7 @@ Plugin example:
 
 ## What is Dalcedo TUI?
 
-Dalcedo lets you ask questions about your data tables, schemas, and data lineage in plain English—no SQL required.
+Dalcedo lets you ask questions about your data tables, schemas, and data lineage in plain English—no SQL required. The initial goal is to reduce friction when querying BigQuery metadata, but the TUI could be used with any dataset.
 
 ## Who is this for?
 
