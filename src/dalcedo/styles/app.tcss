@@ -1,0 +1,98 @@
+/* Global */
+Screen {
+    background: $surface;
+}
+
+/* Chat Screen Layout */
+#messages {
+    height: 1fr;
+    padding: 1 2;
+}
+
+#input {
+    dock: bottom;
+    margin: 1 2;
+    border: tall $accent;
+}
+
+/* Login Screen */
+#login-container {
+    width: 100%;
+    height: auto;
+    padding: 1 2;
+    background: $surface;
+}
+
+#login-container Select {
+    margin-bottom: 1;
+}
+
+#login-container #title {
+    text-align: center;
+    text-style: bold;
+    margin-bottom: 2;
+    color: $text;
+}
+
+#login-container Label {
+    margin-top: 1;
+    margin-bottom: 0;
+}
+
+#login-container Input {
+    margin-bottom: 1;
+}
+
+#login-container #save-btn {
+    margin-top: 2;
+    width: 100%;
+}
+
+/* Sync Screen */
+#sync-container {
+    align: center middle;
+    width: 70;
+    height: auto;
+    border: round $primary;
+    padding: 2;
+    background: $surface;
+}
+
+#sync-container #title {
+    text-align: center;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#sync-container #description {
+    text-align: center;
+    color: $text-muted;
+    margin-bottom: 1;
+}
+
+#sync-container #status {
+    margin: 1 0;
+    text-align: center;
+    text-style: bold;
+    color: $primary;
+}
+
+#sync-container #loading {
+    margin: 1 0;
+    height: 3;
+}
+
+#sync-container ProgressBar {
+    margin: 1 0;
+}
+
+#sync-container .buttons {
+    layout: horizontal;
+    margin-top: 2;
+    width: 100%;
+    align: center middle;
+}
+
+#sync-container .buttons Button {
+    margin: 0 1;
+}
