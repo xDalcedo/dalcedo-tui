@@ -53,7 +53,8 @@ uv sync
    - Add one or more data source plugins (see below)
 
 3. **Run `/sync` to sync your data:**
-   - Select which plugins to sync
+   - Select which plugins to sync.
+    - Not sure which plugin? Try the [BigQuery Ops](https://github.com/xDalcedo/bigquery-ops) DBT project.
    - Wait for the sync to complete
 
 4. **Start asking questions!**
