@@ -1,6 +1,6 @@
 # Dalcedo TUI
 
-A terminal-based natural language interface for querying your data metadata in BigQuery.
+Stop switching between tools to understand your BigQuery platform. Dalcedo gives you operational intelligence in one place: costs, performance, schema changes, and more. Dalcedo-TUI is a terminal-based natural language interface for querying your data metadata in BigQuery.
 
 ![Dalcedo TUI Screenshot](docs/screenshot.png)
 
